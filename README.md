@@ -5,4 +5,5 @@ The repo contains code style settings and information. For now, it's just a Java
 ## Changes
 
 - 20220403
-    - Update `java-code-style.xml` file, `org.eclipse.jdt.core.formatter.lineSplit` from `100` to `180`
+    - `org.eclipse.jdt.core.formatter.lineSplit` from `100` to `180`
+    - `org.eclipse.jdt.core.formatter.comment.line_length` from `100` to `140`

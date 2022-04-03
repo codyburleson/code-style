@@ -1,7 +1,7 @@
 <!--
     Open the VS Code settings (settings.json) and add the following line (remember to update the path):
-    "java.format.settings.url": "~/.vscode/eclipse-java-google-style.xml",
-    Restart VS Code. Change a Java file and the formatter should now produce a much nicer output.
+    "java.format.settings.url": "https://raw.githubusercontent.com/codyburleson/code-style/master/java-code-style.xml"
+    Restart VS Code. Change a Java file and SHIFT + ALT + F to format the file.
 -->
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles version="13">
@@ -244,7 +244,7 @@
 <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_enum_constant" value="16"/>
 <setting id="org.eclipse.jdt.core.formatter.insert_new_line_before_while_in_do_statement" value="do not insert"/>
 <setting id="org.eclipse.jdt.core.formatter.alignment_for_arguments_in_enum_constant.count_dependent" value="16|-1|16"/>
-<setting id="org.eclipse.jdt.core.formatter.comment.line_length" value="100"/>
+<setting id="org.eclipse.jdt.core.formatter.comment.line_length" value="140"/>
 <setting id="org.eclipse.jdt.core.formatter.insert_new_line_after_annotation_on_package" value="insert"/>
 <setting id="org.eclipse.jdt.core.formatter.blank_lines_between_import_groups" value="0"/>
 <setting id="org.eclipse.jdt.core.formatter.insert_space_before_comma_in_enum_constant_arguments" value="do not insert"/>
